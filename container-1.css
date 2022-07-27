@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #FAFAFC;
+}
+.container
+{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.container-1
+{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+/*FOOTER*/
+/*---------------------------------------------------------------*/
+.header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+}
+.img
+{
+    padding-left: 40px;
+}
+.list
+{
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+    font-weight: 600;
+    
+}
+a{
+    text-decoration: none;
+    color:#4F516B;
+}
+a:hover {
+    color: #000;
+    
+}
+li{
+    padding: 10px;
+}
+.button
+{
+    padding: 21px;
+    margin-right:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 300px;
+    
+}
+
+.login{
+
+    height : 36px;
+    width: 121px;
+    border: 1px solid #444BAB;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #444BAB;
+    cursor:pointer;
+}
+.start
+{
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+    color: #FFFFFF;
+    width: 164px;
+    height: 36px;
+    font-weight: 600;
+    background: linear-gradient(92.85deg, #444BAB 3.19%, #3E8EBC 100%);
+    border-radius: 6px;
+    cursor:pointer;
+}
+a .login:hover{
+    
+    /* border: 1px solid red; */
+    height : 36px;
+    width: 121px;
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: linear-gradient(92.85deg, #444BAB 3.19%, #3E8EBC 100%);
+    border-radius: 6px;
+    cursor:pointer;
+}
+a .start:hover
+{
+    width: 164px;
+    height: 36px;
+    border: 1px solid #444BAB;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #444BAB;
+    cursor:pointer;
+    background: #FFFFFF;
+}
+.container-1 .div1
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 140px;
+
+}
+.div1 h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 106px;
+    height: 33px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.8%;
+    color: #3E8EBC;    
+
+}
+.div1 h1{
+    width: 280px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #393939;
+}

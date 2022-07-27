@@ -1,0 +1,77 @@
+.know-more-about-us-wrapper {
+    border-top: 2px solid #c7cdf1;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+}
+.know-more-about-text-wrapper {
+    color: #505050;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins-Regular;
+    justify-content: space-around;
+}
+
+.know-more-about-text {
+    color: #4f516b;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 2.2vw;
+    margin: 0 0 20px;
+}
+.lets-hear-all-text, .lets-hear-all-text a {
+    color: #505050;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.footer-links-section {
+    display: flex;
+    gap: 3vw;
+    margin-top: 2vw;
+}
+.footer-sec-first-column, .footer-sec-second-column, .footer-sec-third-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-sec-first-column, .footer-sec-second-column, .footer-sec-third-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-sec-first-column, .footer-sec-second-column, .footer-sec-third-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.know-more-about-logo-wrapper {
+    color: #505050;
+    font-family: Poppins-Regular;
+    width: 45%;
+}
+a {
+    text-decoration: none;
+}
+.footer-logo-wrapper, .we-help-text {
+    font-size: 1.1vw;
+    margin-bottom: 3vw;
+}
+.icon-wrapper {
+    display: flex;
+    gap: 2.5vw;
+}
+.icon-wrapper img{
+    width: 60px;
+    height: 60px;
+}
+.all-rights-reverved-text {
+    border-top: 2px solid #ccd1ef;
+    color: #66747b;
+    font-family: Poppins;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.container-3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 266px;
+    /* border: 1px solid red; */
+}
+.container-3 button
+{
+    width: 256px;
+    height: 61px;
+    border: 2px solid #B2CCE3;
+    border-radius: 30.5px;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #444BAB;
+    cursor:pointer;
+}
+
+.container-3 button:hover{
+
+    width: 256px;
+    height: 61px;
+    border-radius: 30.5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: linear-gradient(92.85deg, #444BAB 3.19%, #3E8EBC 100%);
+}
